@@ -507,3 +507,238 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+@media (max-width: 1279px) {
+
+    .principal3 {
+        flex-direction: row;
+    }
+
+    .imagen3 {
+        width: 100%;
+    }
+
+    .texto3 {
+        width: 48%;
+        padding: 25px 20px;
+        box-sizing: border-box;
+        gap: 18px;
+    }
+
+    .texto3 h1 {
+        font-size: 45px;
+        line-height: 1;
+        margin: 0;
+    }
+
+    .texto3 p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .texto3 button {
+        margin-top: 5px;
+    }
+
+    .principal3 .imagen4 img {
+        width: 45%;
+        max-width: 150px;
+    }
+
+    .principal5 img{
+            width: 70%;
+            height: 60%;
+        }
+
+    .principal6 img {
+    width: 40%;
+    height: 50%;
+    }
+
+    
+        .principal7 {
+            padding: 50px 3%;
+        }
+
+        .texto7 h3 {
+            font-size: 50px;
+        }
+
+    .principal7 {
+    gap: 5%;
+    }
+
+    }
+
+    @media (max-width: 920px){
+
+          .principal7 {
+                display:block;
+            }
+
+
+        .principal p{
+          width:auto;
+        }
+
+        .principal h1{
+            font-size: 70px;
+        }
+
+        .datos {
+            margin-block-end: 10%;
+        }
+
+        .principal5 img{
+            width: 70%;
+            height: 60%;
+        }
+
+        .principal7 {
+            padding: 50px 3%;
+        }
+
+        .texto7 h3 {
+            font-size: 40px;
+        }
+
+        .texto7 {
+            font-size: 5px;
+        }
+    }
+
+        @media (max-width: 768px) {
+
+
+    .principal7 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px 15px;
+    }
+
+    .datos {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 25px 20px;
+    }
+
+    .fila {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .campo {
+        min-width: 0;
+        width: 100%;
+        max-width: 100%;
+        flex: 1 1 100%;
+        box-sizing: border-box;
+    }
+
+    .campo input,
+    .campo textarea {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+
+            .principal7 {
+                display:block;
+            }
+
+
+        .principal p{
+          width:auto;
+        }
+
+        .datos {
+            margin-block-end: 10%;
+        }
+
+        }
+
+
+
+        @media (max-width: 480px) {
+
+        .principal {
+            display:block;
+            
+            }
+
+            .img {
+                width: 215%;
+                height: auto;
+            }
+
+            .imagen1{
+                margin-block-end: 18px;
+            }
+
+            .logo {
+                padding-right: 17px;
+                
+            }
+
+            .texto1 {
+              width: auto;
+            }
+
+            .texto2 h3 {
+             margin-bottom: auto;
+             line-height: normal;
+  
+        }
+            .principal2 {
+             padding: 130px 2% 50px;
+
+            }
+
+            .texto3 {
+                padding: 0%;
+            }
+
+            .principal3 {
+                display: block;
+
+            }
+
+            .imagem3 {
+                width: 100%;
+            }
+
+            .principal5 {
+                display: block;
+            }
+
+            .texto5 {
+                width: auto;
+            }
+
+            .principal5 img {
+        padding-left: 9px;
+        width: 100%;
+        height: 60%;
+    
+    }
+
+        .principal6 {
+            gap: 0;
+        }
+
+        .principal6 img {
+        margin-right: 30px;
+        width: 55%;
+        height: 60%;
+    }
+
+    .texto7 {
+        width: auto;
+    }
+        }
